@@ -29,7 +29,14 @@ const Hero = () => {
 
               <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
                 <button className="w-full sm:w-auto bg-amber-500 hover:bg-amber-600 transition-colors px-8 py-4 rounded-2xl font-bold text-white shadow-lg shadow-amber-200">
-                  <a href="#about"> Get Started</a>
+                  <a
+                    href="https://wa.me/234808316552"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    Get Started
+                  </a>
                 </button>
                 <button className="w-full sm:w-auto border-2 border-amber-500 hover:bg-amber-50 transition-colors px-8 py-4 rounded-2xl font-bold text-stone-900">
                   <a href="#services"> Explore Services</a>

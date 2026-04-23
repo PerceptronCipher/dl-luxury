@@ -17,7 +17,7 @@ const Footer = () => {
             <div className="h-10">
               {/* 🛑 PLACE YOUR LOGO HERE 🛑 */}
               <div className="border border-stone-300 rounded px-3 py-1 text-sm text-stone-500 font-mono">
-                DL <span className="text-amber-500">LUXURY.CO </span>
+                DI<span className="text-amber-500">LUXURY.CO </span>
               </div>
             </div>
             <p className="text-sm max-w-[280px]">
@@ -46,22 +46,27 @@ const Footer = () => {
             <h4 className="font-semibold text-lg">Quick Links</h4>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="#" className="hover:text-amber-600 transition">
+                <a href="#home" className="hover:text-amber-600 transition">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-amber-600 transition">
+                <a href="#about" className="hover:text-amber-600 transition">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-amber-600 transition">
+                <a href="#services" className="hover:text-amber-600 transition">
                   Services
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-amber-600 transition">
+                <a
+                  href="https://wa.me/234808316552"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-amber-600 transition"
+                >
                   Contact Us
                 </a>
               </li>
@@ -73,12 +78,18 @@ const Footer = () => {
             <h4 className="font-semibold text-lg">Our Services</h4>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="#" className="hover:text-amber-600 transition">
+                <a
+                  href="https://www.yoursub.com"
+                  className="hover:text-amber-600 transition"
+                >
                   Yoursub
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-amber-600 transition">
+                <a
+                  href="https://maps.app.goo.gl/gT29b2f1NorAVjUbA?g_st=awb"
+                  className="hover:text-amber-600 transition"
+                >
                   Tech Space
                 </a>
               </li>
@@ -109,7 +120,9 @@ const Footer = () => {
                   <Phone size={28} className="text-amber-500" />
                 </div>
                 <a
-                  href="tel:+2348061234567"
+                  href="https://wa.me/234808316552"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:text-amber-600 transition"
                 >
                   +234 806 123 4567

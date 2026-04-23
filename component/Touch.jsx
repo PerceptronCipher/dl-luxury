@@ -18,9 +18,17 @@ const Touch = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // 🛑 Handle form submission logic here 🛑
-    console.log("Form Submitted:", formData);
-    // You could send this to an API endpoint
+
+    const { name, email, message } = formData;
+
+    const subject = encodeURIComponent("New Contact Message");
+    const body = encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
+    );
+
+    const mailtoLink = `mailto:ayo922133@gmail.com?subject=${subject}&body=${body}`;
+
+    window.location.href = mailtoLink;
   };
 
   return (
@@ -75,7 +83,7 @@ const Touch = () => {
                     href="tel:+2348061234567"
                     className="text-stone-600 hover:text-amber-600 transition"
                   >
-                    +234 806 123 4567
+                    +234 8083165652
                   </a>
                 </div>
               </div>

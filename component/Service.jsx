@@ -19,21 +19,21 @@ const Service = () => {
             title="YourSub"
             Describe="Buy data, Pay bills, and manage subscriptions seamlessly."
             explore="Explore YourSub"
-            href={"services/yoursub"}
+            href={"https://yoursub.org"}
           />
 
           <Cards
             title="Tech Space"
             Describe="A modern workspace with internet access, browsing and cyber cafe services."
-            explore="Visit Tech Space"
-            href={"services/tech-space"}
+            explore="Check coordinates"
+            href="https://maps.app.goo.gl/gT29b2f1NorAVjUbA?g_st=awb"
           />
 
           <Cards
             title="Marketing & Optimization"
             Describe="Grow your brand with digital marketing, SEO, and strategic promotion"
             explore="See Services"
-            href={"services/Marketing"}
+            href={"#"}
           />
         </div>
       </Reveal>

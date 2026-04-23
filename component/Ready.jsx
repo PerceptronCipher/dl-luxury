@@ -20,7 +20,13 @@ const Ready = () => {
 
           <div className="w-full md:w-auto">
             <button className="w-full md:w-auto bg-stone-900 hover:bg-black transition-colors font-bold text-lg text-white py-4 px-10 rounded-2xl shadow-lg">
-              Contact Us Today
+              <a
+                href="https://wa.me/234808316552"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get Started
+              </a>
             </button>
           </div>
         </div>

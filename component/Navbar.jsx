@@ -28,7 +28,7 @@ const Navbar = () => {
             scrolled ? "text-stone-700" : "text-black"
           }`}
         >
-          DL <span className="text-amber-500">LUXURY.CO </span>
+          DI <span className="text-amber-500">LUXURY.CO </span>
         </div>
 
         <div
@@ -84,7 +84,13 @@ const Navbar = () => {
         <div className="hidden md:block">
           <button className="relative cursor-pointer shadow-2xl overflow-hidden px-8 py-3 font-bold text-white bg-amber-500 rounded-xl group">
             <span className="relative z-10">
-              <a href="register">Get Started</a>
+              <a
+                href="https://wa.me/234808316552"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get Started
+              </a>
             </span>
 
             <span className="absolute inset-0 bg-gradient-to-r from-transparent to-orange-400 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></span>
@@ -134,7 +140,13 @@ const Navbar = () => {
       hover:bg-sky-400 hover:shadow-[0_0_20px_rgba(14,165,233,0.5)]
       active:scale-95"
           >
-            <a href="register">Get Started</a>
+            <a
+              href="https://wa.me/234808316552"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Get Started
+            </a>
           </button>
         </div>
       </div>
