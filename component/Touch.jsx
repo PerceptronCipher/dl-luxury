@@ -22,7 +22,7 @@ const Touch = () => {
     const { message } = formData;
 
     const subject = encodeURIComponent("New Message");
-    const body = encodeURIComponent(`${message}\n\n— (${email})`);
+    const body = encodeURIComponent(message);
 
     const mailtoLink = `mailto:info@dluxury.co?subject=${subject}&body=${body}`;
 

@@ -10,7 +10,7 @@ const Why = () => {
           <div className="font-bold pb-6 text-amber-500">Why Choose Us</div>
 
           <div className="text-3xl pb-6 font-medium">
-            Why Bussinesses Choose DL Luxury.co Ltd
+            Why Bussinesses Choose DI Luxury.co Ltd
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pt-16 p-4">
