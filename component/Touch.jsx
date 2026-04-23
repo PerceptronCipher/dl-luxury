@@ -19,14 +19,12 @@ const Touch = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const { name, email, message } = formData;
+    const { message } = formData;
 
-    const subject = encodeURIComponent("New Contact Message");
-    const body = encodeURIComponent(
-      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
-    );
+    const subject = encodeURIComponent("New Message");
+    const body = encodeURIComponent(`${message}\n\n— (${email})`);
 
-    const mailtoLink = `mailto:ayo922133@gmail.com?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:info@dluxury.co?subject=${subject}&body=${body}`;
 
     window.location.href = mailtoLink;
   };
