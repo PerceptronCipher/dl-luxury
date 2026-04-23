@@ -62,7 +62,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://wa.me/234808316552"
+                  href="https://wa.me/2348083165652"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-amber-600 transition"
@@ -120,12 +120,12 @@ const Footer = () => {
                   <Phone size={28} className="text-amber-500" />
                 </div>
                 <a
-                  href="https://wa.me/234808316552"
+                  href="https://wa.me/2348083165652"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-amber-600 transition"
                 >
-                  +234 806 123 4567
+                  +234 8083165652
                 </a>
               </div>
               {/* Contact Row 3 */}

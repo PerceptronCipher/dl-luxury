@@ -21,7 +21,7 @@ const Ready = () => {
           <div className="w-full md:w-auto">
             <button className="w-full md:w-auto bg-stone-900 hover:bg-black transition-colors font-bold text-lg text-white py-4 px-10 rounded-2xl shadow-lg">
               <a
-                href="https://wa.me/234808316552"
+                href="https://wa.me/2348083165652"
                 target="_blank"
                 rel="noopener noreferrer"
               >

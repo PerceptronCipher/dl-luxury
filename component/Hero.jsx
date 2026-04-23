@@ -30,7 +30,7 @@ const Hero = () => {
               <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
                 <button className="w-full sm:w-auto bg-amber-500 hover:bg-amber-600 transition-colors px-8 py-4 rounded-2xl font-bold text-white shadow-lg shadow-amber-200">
                   <a
-                    href="https://wa.me/234808316552"
+                    href="https://wa.me/2348083165652"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

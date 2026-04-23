@@ -85,7 +85,7 @@ const Navbar = () => {
           <button className="relative cursor-pointer shadow-2xl overflow-hidden px-8 py-3 font-bold text-white bg-amber-500 rounded-xl group">
             <span className="relative z-10">
               <a
-                href="https://wa.me/234808316552"
+                href="https://wa.me/2348083165652"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -141,7 +141,7 @@ const Navbar = () => {
       active:scale-95"
           >
             <a
-              href="https://wa.me/234808316552"
+              href="https://wa.me/2348083165652"
               target="_blank"
               rel="noopener noreferrer"
             >
