@@ -160,7 +160,7 @@ const Footer = () => {
                   href="mailto:info@dluxury.co"
                   className="hover:text-amber-600 transition"
                 >
-                  info@dluxury.co
+                  info@dluxuryco.org
                 </a>
               </div>
             </div>

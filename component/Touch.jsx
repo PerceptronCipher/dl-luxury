@@ -24,7 +24,7 @@ const Touch = () => {
     const subject = encodeURIComponent("New Message");
     const body = encodeURIComponent(message);
 
-    const mailtoLink = `mailto:info@dluxury.co?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:info@dluxuryco.org?subject=${subject}&body=${body}`;
 
     window.location.href = mailtoLink;
   };
@@ -97,7 +97,7 @@ const Touch = () => {
                     href="mailto:info@dluxury.co"
                     className="text-stone-600 hover:text-amber-600 transition"
                   >
-                    info@dluxury.co
+                    info@dluxuryco.org
                   </a>
                 </div>
               </div>
