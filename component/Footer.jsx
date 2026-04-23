@@ -1,5 +1,11 @@
 import { MapPin, Phone, Mail, Hourglass } from "lucide-react";
 import Reveal from "./Reveal";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedinIn,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -25,18 +31,34 @@ const Footer = () => {
               solutions.
             </p>
             {/* Social Icons Placeholder */}
-            <div className="flex space-x-6 pt-2">
-              <a href="#" className="hover:opacity-75">
-                [F]
+            <div className="flex space-x-5 pt-2 text-lg">
+              <a
+                href="#"
+                target="_blank"
+                className="hover:text-amber-500 transition"
+              >
+                <FaFacebookF />
               </a>
-              <a href="#" className="hover:opacity-75">
-                [T]
+              <a
+                href="#"
+                target="_blank"
+                className="hover:text-amber-500 transition"
+              >
+                <FaTwitter />
               </a>
-              <a href="#" className="hover:opacity-75">
-                [I]
+              <a
+                href="#"
+                target="_blank"
+                className="hover:text-amber-500 transition"
+              >
+                <FaInstagram />
               </a>
-              <a href="#" className="hover:opacity-75">
-                [L]
+              <a
+                href="#"
+                target="_blank"
+                className="hover:text-amber-500 transition"
+              >
+                <FaLinkedinIn />
               </a>
             </div>
           </div>
