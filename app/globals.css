@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold-500: #d4af37;
+  --color-gold-600: #c5a059;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@theme {
+  /* This tells Tailwind that when the 'dark' class is on the html tag, 
+     it should trigger dark mode styles */
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Add this line to enable the 'class' strategy in v4 */
+@custom-variant dark (&:where(.dark, .dark *));
