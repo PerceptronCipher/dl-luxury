@@ -13,7 +13,7 @@ const Hero = () => {
             {/* Left Content Column */}
             <div className="text-center md:text-left md:w-1/2">
               <span className="inline-block text-amber-600 font-bold uppercase tracking-wider text-sm mb-4">
-                Digital Solution Company in Africa
+                Digital Solution Company in 
               </span>
 
               <h1 className="text-4xl lg:text-6xl font-extrabold text-stone-900 leading-tight mb-6">
